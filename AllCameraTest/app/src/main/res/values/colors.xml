@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="black">#ff000000</color>
+    <color name="black03">#08000000</color>
+    <color name="black06">#0f000000</color>
+    <color name="black07">#12000000</color>
+    <color name="black08">#14000000</color>
+    <color name="black10">#1a000000</color>
+    <color name="black12">#1f000000</color>
+    <color name="black13">#21000000</color>
+    <color name="black15">#26000000</color>
+    <color name="black16">#29000000</color>
+    <color name="black20">#33000000</color>
+    <color name="black25">#40000000</color>
+    <color name="black28">#47000000</color>
+    <color name="black30">#4d000000</color>
+    <color name="black35">#59000000</color>
+    <color name="black40">#66000000</color>
+    <color name="black45">#73000000</color>
+    <color name="black46">#75000000</color>
+    <color name="black50">#80000000</color>
+    <color name="black54">#8a000000</color>
+    <color name="black55">#8c000000</color>
+    <color name="black60">#99000000</color>
+    <color name="black65">#a6000000</color>
+    <color name="black70">#B3000000</color>
+    <color name="black76">#C2000000</color>
+    <color name="black80">#cc000000</color>
+    <color name="black92">#ea000000</color>
+    <color name="input_txt_black">#191919</color>
+
+    <color name="black_grey">#30303d</color>
+    <color name="black_grey2">#393854</color>
+    <color name="black_grey2_50">#80393854</color>
+    <color name="black_grey3">#353545</color>
+    <color name="black_grey4">#8284a3</color>
+    <color name="black_grey5">#49495a</color>
+    <color name="black_grey6">#1c1b1b</color>
+    <color name="black_grey7">#cdcdd1</color>
+    <color name="black_grey8">#cacacd</color>
+    <color name="black50_grey8">#80cacacd</color>
+    <color name="black_grey9">#333333</color>
+    <color name="black_grey10">#3d3d3d</color>
+    <color name="black_grey11">#707070</color>
+
+    <color name="blue_black">#030316</color>
+    <color name="blue_black2">#0b0b1d</color>
+    <color name="blue_black3">#100e24</color>
+    <color name="blue_black4">#303049</color>
+    <color name="blue_black85">#d9030316</color>
+    <color name="blue_black96">#f5222234</color>
+    <color name="blue_grey">#6f6f81</color>
+    <color name="blue_grey2">#75758f</color>
+    <color name="blue_grey3">#4a495d</color>
+    <color name="blue_grey4">#77779d</color>
+    <color name="blue_grey4_50">#8077779d</color>
+    <color name="blue_grey4_40">#6677779d</color>
+    <color name="blue_grey4_30">#4d77779d</color>
+    <color name="black_grey7_50">#80cdcdd1</color>
+    <color name="blue_grey50">#806f6f81</color>
+    <color name="blue_grey5">#8383a3</color>
+    <color name="blue_grey6">#514f6b</color>
+    <color name="blue_grey7">#aeaeb6</color>
+    <color name="blue_grey8">#676775</color>
+    <color name="blue_grey8_90">#e6676775</color>
+    <color name="blue30_grey5">#4d8383a3</color>
+    <color name="blue50_grey5">#808383a3</color>
+    <color name="blue60_grey5">#998383a3</color>
+    <color name="light_green">#00d68d</color>
+    <color name="light_green_02">#03da7d</color>
+    <color name="light_green_03">#1bd76c</color>
+    <color name="light_green_04">#1bd171</color>
+    <color name="light_green_04_50">#801bd171</color>
+    <color name="light_green_05">#74f1bd</color>
+    <color name="light_green20">#3300fb72</color>
+    <color name="light_green30">#4d00fb72</color>
+    <color name="light_green50">#8000d68d</color>
+
+    <color name="dark_green">#20804e</color>
+    <color name="sky_blue">#9fc6e5</color>
+    <color name="sky_blue_02">#4285f4</color>
+    <color name="sky_blue_03">#6aa6ea</color>
+    <color name="sky_blue_04">#639cd5</color>
+    <color name="sky_blue_05">#01cabb</color>
+    <color name="sky_blue_05_50">#8001cabb</color>
+    <color name="sky_blue50_02">#804285f4</color>
+    <color name="sky_blue_06">#00aced</color>
+    <color name="sky_blue_06_50">#8000aced</color>
+    <color name="sky_blue_07">#458ee0</color>
+    <item name="blue" type="color">#36649c</item>
+    <item name="blue_02" type="color">#36649c</item>
+    <item name="blue_50" type="color">#8036649c</item>
+    <item name="blue_03" type="color">#2d77ff</item>
+    <item name="blue_04" type="color">#0082f7</item>
+    <item name="blue_04_50" type="color">#800082f7</item>
+    <item name="blue_05" type="color">#0082f2</item>
+    <item name="blue_05_50" type="color">#800082f2</item>
+    <item name="blue_06" type="color">#3664a2</item>
+    <item name="blue_06_50" type="color">#803664a2</item>
+    <item name="blue_07" type="color">#01a9da</item>
+    <item name="blue_08" type="color">#3e70ff</item>
+    <item name="blue_08_50" type="color">#803e70ff</item>
+    <item name="blue_09_60" type="color">#99529dee</item>
+    <item name="blue_10" type="color">#63a5ff</item>
+    <item name="blue_11" type="color">#1679ff</item>
+    <item name="blue_12" type="color">#03a1ff</item>
+    <item name="blue_check_in" type="color">#3B50D9</item>
+
+    <color name="white97">#f7ffffff</color>
+    <color name="white96">#f5ffffff</color>
+    <color name="white95">#f2ffffff</color>
+    <color name="white94">#f0ffffff</color>
+    <color name="white90">#e6ffffff</color>
+    <color name="white85">#d9ffffff</color>
+    <color name="white80">#ccffffff</color>
+    <color name="white70">#b3ffffff</color>
+    <color name="white66">#a8ffffff</color>
+    <color name="white60">#99ffffff</color>
+    <color name="white50">#80ffffff</color>
+    <color name="white46">#75ffffff</color>
+    <color name="white45">#73ffffff</color>
+    <color name="white40">#66ffffff</color>
+    <color name="white35">#59ffffff</color>
+    <color name="white30">#4dffffff</color>
+    <color name="white25">#40ffffff</color>
+    <color name="white20">#33ffffff</color>
+    <color name="white10">#1Affffff</color>
+    <color name="white07">#12ffffff</color>
+    <color name="white08">#14ffffff</color>
+    <color name="white09">#17ffffff</color>
+    <color name="white05">#0dffffff</color>
+    <color name="white03">#08ffffff</color>
+    <color name="white">#ffffff</color>
+
+    <!-- bg -->
+    <color name="status_bg">@color/black20</color>
+    <color name="menu_base_bg">@color/white</color>           <!--white theme-->
+    <color name="toolbar_scroll_bg">@color/white</color>   <!--white theme-->
+    <color name="base_background">@color/white</color>  <!--white theme-->
+    <color name="base_background_press">#80100e24</color>
+
+    <color name="action_menu_bg_select">#232333</color>
+    <color name="action_menu_bg">#1e1e2d</color>
+    <color name="btn_bg_follow">#1a1e1e2d</color>
+    <color name="btn_bg_follow50">#801e1e2d</color>
+    <color name="mini_player_loading_bg">#26000000</color>
+    <color name="recorder_noti_bg">#e61e1e2d</color>
+
+    <color name="player_info_bg">#f2ffffff</color>
+    <color name="player_info_archive_bg">#1affffff</color>
+
+    <color name="player_live_chat_bg">@color/white</color>       <!--white theme-->
+    <color name="player_live_profile_bg">#cc100e24</color>
+    <color name="list_channel_hold_bg">#99100e24</color>
+    <color name="list_channel_deleted_bg">#171629</color>
+
+    <color name="bottom_toolbar_bg">#fbfbfb</color> <!--white theme-->
+    <color name="banner_indicator_bg">#CCD7E0</color>   <!--white theme-->
+
+    <!-- line -->
+    <color name="follow_line_bg">#171728</color>
+    <color name="profile_line_bg">@color/black08</color>  <!--white theme-->
+    <color name="player_info_line_bg">#1a1a2b</color>
+    <color name="player_info_line_bg_v2">#e1e1e1</color>
+    <color name="dialog_line_bg">#262635</color>
+    <color name="divider1">#1c1a2f</color>
+
+    <!--  btn -->
+    <color name="home_cast_press_bg">@color/blue_black2</color>
+    <color name="btn_tab_press">#0a0a23</color>
+    <color name="dialog_btn_bg_press">#18182a</color>
+    <color name="dialog_bg">@color/white</color>  <!--white theme-->
+    <color name="btn_confirm">#1d1c2e</color>
+    <color name="btn_confirm_press">#05051e</color>
+
+    <color name="login_btn_bg">#20c601</color>
+    <color name="login_btn_bg_press">#8020c601</color>
+    <color name="btn_eula_agree">#37c65c</color>
+    <color name="btn_eula_agree_press">#1b632e</color>
+    <color name="btn_eula_cancel">#646f88</color>
+    <color name="btn_eula_cancel_press">#323744</color>
+
+    <color name="btn_twitter_bg">#03aee4</color>
+    <color name="btn_twitter_bg_press">#13698d</color>
+
+    <color name="swipe_refresh_bg">@color/white</color>
+    <color name="swipe_refresh_arrow">@color/red_04</color>
+
+    <color name="review_prompt_btn_bg">#ffffff</color>
+    <color name="review_prompt_btn_bg_press">#80ffffff</color>
+
+    <!-- Import from Recorder -->
+
+    <!-- color -->
+    <item name="black75" type="color">#Bf000000</item>
+
+    <item name="green" type="color">#a9f717</item>
+
+    <item name="grey" type="color">#6e6f75</item>
+    <item name="grey_02" type="color">#999999</item>
+    <item name="grey_02_10" type="color">#1a999999</item>
+    <item name="grey_02_15" type="color">#26999999</item>
+    <item name="grey_02_30" type="color">#4d999999</item>
+    <item name="grey_02_50" type="color">#80999999</item>
+    <item name="grey_02_70" type="color">#b3999999</item>
+    <item name="grey80_02" type="color">#cc999999</item>
+    <item name="grey_03" type="color">#e0e0e0</item>
+    <item name="grey_04" type="color">#ececec</item>
+    <item name="grey_05" type="color">#a2a2a4</item>
+    <item name="grey_06" type="color">#b0b0b0</item>
+    <item name="grey_06_40" type="color">#66b0b0b0</item>
+    <item name="grey_07" type="color">#dad9d9</item>
+    <item name="grey_08" type="color">#b9b9ba</item>
+    <item name="grey_09" type="color">#b7b7bd</item>
+    <item name="grey_10" type="color">#535353</item>
+    <item name="grey_10_50" type="color">#80535353</item>
+    <item name="grey_11" type="color">#aeaeb5</item>
+    <item name="grey_11_50" type="color">#80aeaeb5</item>
+    <item name="grey_12" type="color">#dcdcdc</item>
+    <item name="grey_12_50" type="color">#80dcdcdc</item>
+    <item name="grey50_09" type="color">#80b7b7bd</item>
+    <item name="grey12" type="color">#696969</item>
+    <item name="grey13" type="color">#959595</item>
+    <item name="grey14" type="color">#ebebeb</item>
+    <item name="grey15" type="color">#8d8d8d</item>
+    <item name="grey16" type="color">#eeeff2</item>
+    <item name="grey16_85" type="color">#d9eeeff2</item>
+    <item name="grey17" type="color">#666666</item>
+    <item name="grey17_50" type="color">#80666666</item>
+    <item name="grey18" type="color">#b9b9b9</item>
+    <item name="grey19" type="color">#dddddd</item>
+    <item name="grey20" type="color">#acacac</item>
+    <item name="grey21" type="color">#cccccc</item>
+    <item name="grey22" type="color">#adadad</item>
+    <item name="grey23" type="color">#b4b7bb</item>
+    <item name="grey24" type="color">#777777</item>
+    <item name="grey24_80" type="color">#cc777777</item>
+    <item name="grey25" type="color">#d9d9d9</item>
+    <item name="grey26_70" type="color">#b3f1f1f3</item>
+    <item name="grey27" type="color">#888888</item>
+    <item name="grey28" type="color">#bababa</item>
+    <item name="grey29_10" type="color">#1a6e6d6e</item>
+    <item name="grey29_25" type="color">#406e6d6e</item>
+    <item name="grey30" type="color">#717186</item>
+    <item name="grey31" type="color">#cecece</item>
+    <item name="grey32" type="color">#a2a2a2</item>
+    <item name="grey33" type="color">#e5e5e5</item>
+    <item name="grey33_30" type="color">#4de5e5e5</item>
+    <item name="grey34" type="color">#c6c6c6</item>
+    <item name="grey35" type="color">#dedede</item>
+    <item name="grey35_30" type="color">#ededed</item>
+    <item name="grey36" type="color">#eeeeee</item>
+    <item name="grey36_30" type="color">#4deeeeee</item>
+    <item name="grey37" type="color">#b6b6b6</item>
+    <item name="grey38" type="color">#f3f3f3</item>
+    <item name="grey39" type="color">#a5a5a5</item>
+    <item name="grey40" type="color">#aaaaaa</item>
+    <item name="grey41" type="color">#f2f2f2</item>
+    <item name="grey42" type="color">#f5f5f5</item>
+    <item name="grey43" type="color">#b8b8b8</item>
+    <item name="grey44" type="color">#eaeaea</item>
+    <item name="grey45" type="color">#c7c7cc</item>
+    <item name="light_grey" type="color">#6f6f81</item>
+    <item name="light_grey_02" type="color">#e9e9eb</item>
+    <item name="light_grey_02_50" type="color">#80e9e9eb</item>
+    <item name="light_grey_03" type="color">#f5fbfbfb</item>
+    <item name="light_grey_04" type="color">#fafafa</item>
+    <item name="light_grey_05" type="color">#fefefe</item>
+    <item name="light_grey_06" type="color">#f8f8f8</item>
+    <item name="light_grey_07" type="color">#f9f9f9</item>
+
+    <color name="grey10_10">#1a424242</color>
+    <color name="grey10_50">#80424242</color>
+    <color name="grey11_65">#a601000b</color>
+
+    <item name="red" type="color">#ff4350</item>
+    <item name="red_02" type="color">#df4f3f</item>
+    <item name="red_03" type="color">#eb1438</item>
+    <item name="red_04" type="color">#ff1e46</item>
+    <item name="red_04_10" type="color">#1aff1e46</item>
+    <item name="red_04_50" type="color">#80ff1e46</item>
+    <item name="red_04_70" type="color">#b3ff1e46</item>
+    <item name="red_05" type="color">#ff0000</item>
+    <item name="red_06_95" type="color">#f2ff1e46</item>
+    <item name="red_07" type="color">#f7254c</item>
+    <item name="red_08" type="color">#f21a5c</item>
+    <item name="red_09" type="color">#fc3c5e</item>
+    <item name="red_10" type="color">#ff2d55</item>
+    <item name="red_11" type="color">#ff6177</item>
+    <item name="red_12" type="color">#ff576e</item>
+    <item name="red_13" type="color">#e93c4d</item>
+    <item name="red_14" type="color">#f65c60</item>
+    <item name="red_placard_delete_bg" type="color">#1aff1e46</item>
+
+
+    <item name="yellow" type="color">#ffea60</item>
+    <item name="yellow_02" type="color">#f9e55e</item>
+    <item name="yellow_03" type="color">#f8ba0f</item>
+    <item name="yellow_04" type="color">#ffd200</item>
+    <item name="yellow_05" type="color">#ffe44f</item>
+    <item name="yellow_06" type="color">#ffba00</item>
+
+    <item name="purple" type="color">#e66a6df2</item>
+
+    <item name="orange" type="color">#f17c14</item>
+    <item name="orange_02" type="color">#fd985c</item>
+    <item name="orange_03" type="color">#ff7c19</item>
+    <item name="orange_04" type="color">#f8bd33</item>
+
+    <color name="mint">#00d5be</color>
+
+    <item name="title_base_bg" type="color">#090a42</item>
+
+    <item name="white15" type="color">#26ffffff</item>
+    <item name="white13" type="color">#21ffffff</item>
+
+    <item name="enable_grey" type="color">#B3848490</item>
+    <item name="end_line_bg" type="color">#1d1d2e</item>
+
+    <!--Change opacity ver.2.2 "95% > 90%" -->
+    <item name="rc_opacity_bg" type="color">#e0100E24</item>
+    <item name="rc_divider" type="color">@color/white08</item>
+
+    <!-- Streamer Text -->
+    <item name="streamer_level_newbie" type="color">#ffc939</item>
+    <item name="streamer_level_rookie" type="color">#00d5ad</item>
+    <item name="streamer_level_star" type="color">#bc5fff</item>
+    <item name="streamer_level_super_star" type="color">#ff5ab4</item>
+    <item name="streamer_level_celeb" type="color">#ff2048</item>
+
+    <!-- Streamer Popup BG -->
+    <item name="streamer_01_bg" type="color">#ffc939</item>
+    <item name="streamer_02_bg" type="color">#00c3b0</item>
+    <item name="streamer_03_bg" type="color">#00b4ff</item>
+    <item name="streamer_04_bg" type="color">#7347f6</item>
+    <item name="streamer_05_bg" type="color">#dc323b</item>
+
+    <!-- Viewer Text -->
+    <item name="viewer_level_blue" type="color">#4dbffe</item>
+    <item name="viewer_level_green" type="color">#2fc63c</item>
+    <item name="viewer_level_purple" type="color">#ad4bf9</item>
+
+    <!-- Date Picker -->
+    <item name="date_picker_header" type="color">#ff1e46</item>
+    <item name="date_picker_selector" type="color">#ff1e46</item>
+
+    <!-- View Popup BG -->
+    <item name="viewer_01_bg" type="color">#1dcba6</item>
+    <item name="viewer_02_bg" type="color">#01bdd5</item>
+    <item name="viewer_03_bg" type="color">#3a80ff</item>
+    <item name="viewer_04_bg" type="color">#a53bff</item>
+    <item name="poll_yes_bg" type="color">#00c79c</item>
+    <item name="poll_yes_disable_bg" type="color">#8000c79c</item>
+    <item name="poll_no_bg" type="color">#ff4d6d</item>
+    <item name="poll_no_disable_bg" type="color">#80ff4d6d</item>
+
+    <color name="accent_01">#FF1E46</color>
+    <color name="inventory_recyclerview_bg">#f5f5f5</color>
+    <color name="item_shop_recyclerview_bg">#f5f5f5</color>
+    <color name="check_in_item_color_yellow">#ECA900</color>
+    <color name="check_in_item_color_green">#74CA27</color>
+    <item name="check_in_item_title_gray" type="color">#AAAAAA</item>
+
+    <!-- Event Ranking Streamer Container -->
+    <color name="streamer_gradient_start_bg">#fff56697</color>
+    <color name="streamer_gradient_end_bg">#ffdc58d1</color>
+    <color name="check_in_vip_frame_text">#ffaf7a</color>
+    <color name="check_in_vip_frame_text_02">#ff9751</color>
+    <color name="common_chat_shadow">#99000000</color>
+    <color name="common_chat_bg_color">#33000000</color>
+    <color name="common_message_color">#00f6c1</color>
+    <color name="common_transparent">#00000000</color>
+    <color name="chat_top_one">#661a1373</color>
+    <color name="warning_disconnect_text_color">#ffffea60</color>
+    <color name="vip_flying_message_bg_color">#cc540A13</color>
+    <item name="vip_btn_gray" type="color">#b0b0b0</item>
+    <item name="coin_free_blue" type="color">#458ee0</item>
+
+    <item name="chat_btn_enable" type="color">#ff1e46</item>
+    <item name="chat_btn_disable" type="color">#9b9b9b</item>
+    <item name="official_account_blue" type="color">#4a90e2</item>
+
+    <color name="pk_inviter">#fa44b4</color>
+    <color name="pk_invitee">#1fc8b8</color>
+
+    <color name="pk_inviter_80">#ccfa44b4</color>
+    <color name="pk_invitee_80">#cc1fc8b8</color>
+    <color name="stamp_direction_bg">#66d8d8d8</color>
+    <color name="mini_pk_sub_left_bg">#d8d8d8</color>
+    <color name="dm_private_gift_name">#ffe90b</color>
+    <color name="search_category_tab_color">#222222</color>
+    <color name="search_discuss_option_higher_color">#eb77ff</color>
+    <color name="search_discuss_option_lower_color">#24c3ff</color>
+
+    <color name="debate_option_1">#d542ec</color>
+    <color name="debate_option_2">#34bade</color>
+    <color name="debate_option_3">#1fc8b8</color>
+    <color name="debate_best_speaker_slot_number">#f7b500</color>
+    <color name="balance_bonus_color">#30c4e0</color>
+    <color name="search_history_id_color">#a3a3a3</color>
+</resources>

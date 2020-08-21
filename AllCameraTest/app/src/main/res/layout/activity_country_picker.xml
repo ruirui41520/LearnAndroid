@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="adapter"
+            type="androidx.recyclerview.widget.RecyclerView.Adapter" />
+
+        <variable
+            name="manager"
+            type="androidx.recyclerview.widget.RecyclerView.LayoutManager" />
+
+        <variable
+            name="countryPickerViewModel"
+            type="com.intelligence.allcameratest.databindingexample.CountryPickerViewModel" />
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/pick_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:adapter="@{adapter}"
+            app:layoutManager="@{manager}"/>
+
+        <TextView
+            android:id="@+id/tv_letter"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerInParent="true"
+            android:background="#80000000"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:text="@{countryPickerViewModel.letterField}"
+            android:textSize="24sp"
+            android:visibility="@{(countryPickerViewModel.letterField == null)?View.GONE:View.VISIBLE}" />
+
+        <com.intelligence.allcameratest.databindingexample.CountryPickerSlideBar
+            android:id="@+id/country_slide_bar"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:minHeight="380dp"
+            app:letterColor="@color/black45"
+            app:letterSize="11sp"
+            app:selectColor="#3C3" />
+    </RelativeLayout>
+
+</layout>

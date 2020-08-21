@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="20dp">
+
+        <LinearLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginEnd="20dp"
+            android:gravity="center_vertical"
+            android:onClick="@{v -> countryPickerPresenter.onCountryItemSelectEvent(countryPickerCountryItem)}"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iv_flag"
+                android:layout_width="17dp"
+                android:layout_height="17dp"
+                android:background="@drawable/bg_profile_stroke"
+                android:padding="0.5dp"
+                app:iconSrc="@{countryPickerCountryItem.countryInfo.flag}" />
+
+            <Space
+                android:layout_width="8dp"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:singleLine="true"
+                android:text="@{countryPickerCountryItem.countryInfo.name}"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/iv_check"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/checked"
+                android:visibility="@{countryPickerCountryItem.countryInfo.selectedCountry ? View.VISIBLE: View.GONE}" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/bottom_divider"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@+id/container"
+            android:background="@color/grey33" />
+
+    </RelativeLayout>
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="countryPickerPresenter"
+            type="com.intelligence.allcameratest.databindingexample.CountryPickerPresenter" />
+
+        <variable
+            name="countryPickerCountryItem"
+            type="com.intelligence.allcameratest.databindingexample.CountryPickerCountryItem" />
+    </data>
+</layout>
